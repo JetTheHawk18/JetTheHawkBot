@@ -19,14 +19,14 @@ async def help(ctx):
     embed.add_field(name="GENERAL", value='j!help - This message\nj!info - Information about the bot', inline=False)
     embed.add_field(name="FUN COMMANDS", value='j!askjet - Ask Jet the Hawk stuff\nj!jetpic - I send a picture of Jet the Hawk\nj!jetwallpaper - I give you a Jet the Hawk wallpaper\nj!playjetstheme - I play Jet The Hawks theme song in VC\nj!celebrate - Plays the Sonic CD Zone Clear Jingle', inline=False)
     embed.add_field(name="UTILITY", value='j!jetstheme - Links you to the Theme Song of Jet the Hawk\nj!say - Make the bot say your message\nj!esay - Make the bot say stuff in a embed', inline=False)
-    embed.add_field(name="INVITE ME", value='[Invite me](https://discord.com/oauth2/authorize?client_id=786401680798908426&permissions=0&scope=bot)', inline=False)
+    embed.add_field(name="INVITE ME", value='[Invite me](https://discord.com/oauth2/authorize?client_id=999908333215551580&permissions=0&scope=bot)', inline=False)
     await ctx.send(embed=embed)
 
 @client.command()
 async def info(ctx):
     embed = discord.Embed(title="Jet the Hawk Bot Information", description="Information about this bot. My prefix is **j!**", color=(65359))
     embed.add_field(name="STATUS", value=f'Made with: discord.py\nMade by: Jet the Hawk#8960\nLatency: {round(client.latency * 1000)}ms\nServers I am in: {len(client.guilds)}', inline=False)
-    embed.add_field(name="LINKS", value='INVITE THE BOT: https://discord.com/oauth2/authorize?client_id=786401680798908426&permissions=0&scope=bot\nSupport Server: https://discord.gg/c7MnZDn4RS\nSource Code: https://github.com/JetTheHawk18/JetTheHawkBot', inline=False)
+    embed.add_field(name="LINKS", value='INVITE THE BOT: https://discord.com/oauth2/authorize?client_id=999908333215551580&permissions=0&scope=bot\nSupport Server: https://discord.gg/c7MnZDn4RS\nSource Code: https://github.com/JetTheHawk18/JetTheHawkBot', inline=False)
     embed.add_field(name="OWNERS SOCIAL MEDIA", value='Here is the bot creators social media\nYoutube: https://www.youtube.com/channel/UC0t2jbH82Kr_8mh-IDwUgjQ\nTwitter: https://twitter.com/JettheHawk18', inline=False)
     await ctx.send(embed=embed)
 
